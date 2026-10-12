@@ -19,7 +19,7 @@ root/
     ├── index.php
     ├── detail_cuaca.php
     └── *.php
-
+```
 - Unggah seluruh direktori includes/ dan semua file .php ke folder root web server (direktori www/ atau public_html/).
 - Buat folder data/ di dalam direktori www/ untuk menampung data unduhan otomatis:
   ```bash
