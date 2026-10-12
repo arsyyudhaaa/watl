@@ -22,10 +22,10 @@ root/
 ```
 - Unggah seluruh direktori includes/ dan semua file .php ke folder root web server (direktori www/ atau public_html/).
 - Buat folder data/ di dalam direktori www/ untuk menampung data unduhan otomatis:
-  ```bash
+```bash
   mkdir -p www/data
   chmod -R 755 www/data
-  ```
+```
 
 ## Otomasi Data (cron/)
 - Jalankan skrip shell di dalam folder cron/ secara berkala menggunakan crontab pada server. Akses editor crontab:
